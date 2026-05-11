@@ -4,7 +4,7 @@ Budget Bee is a full-stack web application designed to help users track their ex
 
 ## 🚀 Features
 
-- **User Authentication**: Secure signup and login functionality using JWT and bcrypt.
+- **User Authentication**: Secure signup and login functionality using bcrypt.
 - **Dashboard**: A comprehensive overview of your financial status, including total balance, income, and expenses.
 - **Expense Management**: Easily add, edit, and delete expense entries.
 - **Visual Analytics**: Interactive charts (Doughnut charts) to visualize spending by category.
@@ -23,7 +23,6 @@ Budget Bee is a full-stack web application designed to help users track their ex
 - Node.js
 - Express.js
 - MongoDB (Mongoose)
-- JSON Web Tokens (JWT)
 - Bcrypt.js
 
 ## ⚙️ Installation and Setup
@@ -47,7 +46,6 @@ Create a `.env` file in the `server` directory and add your configurations:
 ```env
 PORT=5000
 MONGO_URI=your_mongodb_connection_string
-JWT_SECRET=your_jwt_secret
 ```
 Start the server:
 ```bash
@@ -78,6 +76,3 @@ Budget-Bee/
 │   └── config/
 └── README.md
 ```
-
-## 📄 License
-This project is licensed under the ISC License.
