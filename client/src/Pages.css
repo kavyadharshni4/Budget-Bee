@@ -1,0 +1,106 @@
+#navbar-link {
+  display: flex;
+  gap:30px;
+}
+.landing-heading,.child-login>h1,.child-signup>h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.parent-login,.parent-signup{
+    height: 100vh;
+    width:100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.child-login,.child-signup{
+    border:1px solid white;
+}
+#sidebar-link{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding:40px;
+}
+.sidebar-links,.sidebar-links-logout{
+    margin-bottom: 30px;
+    text-decoration: none;
+    color:white;
+    font-size: x-large;
+}
+.sidebar-links-logout{
+    color:rgb(244, 215, 215);
+    margin-top: 60%;
+    padding:5px;
+}
+
+.addwhole{
+    display: flex;
+    min-width: 100vw;
+    min-height: 100vh;
+}
+.add-parent,.parent-profile{
+    margin-left: 350px;
+    flex-grow: 1;
+    display: flex;
+    min-height: 100vh;
+    justify-content: center; 
+    align-items: center;   
+    padding: 20px;
+}
+.add-child,.child-profile{
+    border:1px solid rgb(222, 220, 220);
+    height: fit-content;
+    width: fit-content;
+    padding:20px;
+    border-radius: 20px;
+}
+.add-title,.add-amount,.add-category,.add-date,.add-payment{
+    margin-bottom:30px;
+    display: flex;
+    align-items: flex-start;
+    justify-content:space-between;
+}
+.child-history{
+   border:1px solid white;
+   height: fit-content;
+   width:90%;
+}
+.child-rows>th,.child-rows>td{
+    padding: 15px;
+    font-size: 20px;
+}
+.parent-history{
+    margin-left: 350px;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center; 
+    align-items: center;   
+    padding: 20px;
+}
+.parent-dashboard,.parent-chart{
+    margin-left: 350px;
+    flex-grow: 1;
+    display: flex;
+}
+.child-dashboard{
+    display: flex;
+    width: 100vw;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.target-amount,.total-expense{
+    border:1px solid grey;
+    border-radius: 20px;
+    font-size: 100px;
+    color: grey;
+    padding:10px;
+    background-color: rgb(244, 241, 241);
+}
+
+.child-chart{
+    height: 360px;
+    width:360px;
+    margin-left: 30px;
+}
